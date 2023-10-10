@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#062e3f">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+  <title>To Do list</title>
+</head>
+
+<body>
+  <body style="background-color:powderblue;" ></body>
+  <div class = "center" id = "header">
+    <div class="flexrow-container">
+      <div class="standard-theme theme-selector"></div>
+      <div class="light-theme theme-selector"></div>
+      <div class="darker-theme theme-selector"></div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="column" id = "columnleft">
+      <div id = "header" style="font-family: 'Work Sans', sans-serif;">
+        <p id = "title"  style="font-size:8vw">Just do it</p>
+      </div>
+      <div id="form">
+        <form>
+          <input class="todo-input" type="text" placeholder="Add a task." style="font-weight: lighter; font-family: IBM Plex Sans Thai, serif">
+          <button id="todo-btn" type="submit">Submit</button>
+        </form>
+        <p><span id="datetime"></span><p>
+        <script src="time.js"></script>
+        <ul class="false">
+        </ul>
+      </div>
+      <div id="myUnOrdList">
+        <ul class="todo-list" style="font-family: 'IBM Plex Sans Thai', sans-serif;">
+        </ul>
+      </div>
+    </div>
+
+    <div class="column" id = "columnright" >
+      <h1 class = "chill">chill music</h1>
+      <div class = "music" onload="init()">
+        <audio id="audio" controls="controls" onerror="alert('Could not play MP3 audio file ' + this.src + '!');" onended="skip()">
+        </audio>
+        <ol class="playlist" style="font-weight: lighter; font-size: large ;font-family: IBM Plex Sans Thai, serif ">
+          <li>track-number-one</li>
+          <li>track-number-two</li> 
+        </ol>
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts.js"> </script>
+  <script src="/music/music.js"></script>
+
+</body>
+</html>
