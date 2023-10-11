@@ -1,7 +1,7 @@
 const chill = document.querySelector(".chill");
 const fail = document.querySelector('.false');
 const title = document.getElementById('title');
-const bgcolor = document.getElementsById('bg');
+// const bgcolor = document.getElementsById('bg');
 const time = document.getElementById("datetime");
 const changetext = document.querySelector('.changecolortext');
 // const funky = document.querySelector('.funky-theme');
