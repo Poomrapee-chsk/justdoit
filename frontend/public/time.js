@@ -4,7 +4,28 @@ const title = document.getElementById('title');
 const bgcolor = document.getElementsById('bg');
 const time = document.getElementById("datetime");
 const changetext = document.querySelector('.changecolortext');
-const funky = document.querySelector('.funky-theme');
+// const funky = document.querySelector('.funky-theme');
+
+//Day-Night color changing
+// var DayNightColors = ['#242928', '#97afca', '#374065', '#574661'];
+// funky.addEventListener('click', DayNightCycle()) 
+// function DayNightCycle() {
+    
+//     var now = new Date();
+//     var hours = now.getHours();
+//     if (20 <= hours && hours < 4) { //Night
+//        bgcolor.style.color = DayNightColors;
+//     }
+//     if (5 <= hours && hours < 8) { //Dawn
+//         bgcolor.style.color = DayNightColors[1];
+//     }
+//     if (9 <= hours && hours < 17) { //Day
+//         bgcolor.style.color = DayNightColors[2];
+//     }
+//     if (18 <= hours && hours < 20) { //Dusk
+//         bgcolor.style.color = DayNightColors[3];
+//     }
+// }
 
 //Random "Just Do It" color
 var colors = ['red', 'white', 'purple', "orange", "cyan", "blue", "yellow"];

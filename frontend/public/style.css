@@ -121,6 +121,10 @@ font-weight: lighter; font-family: IBM Plex Sans Thai, serif "
   transform: scale(0.95);
 }
 
+.changecolortext {
+  background: linear-gradient(-50deg, red 5px, blue 40px);
+}
+
 .standard-theme {
   background-image: linear-gradient(100deg, #575656, #062e3f);
 }

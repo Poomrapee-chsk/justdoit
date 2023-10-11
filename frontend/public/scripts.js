@@ -188,6 +188,11 @@ function changeTheme(color) {
     });
 }
 
+const wow = {};
+wow["add"] = "haha";
+console.log(wow);
+
+
 // Dynamic Colored Background, Day-Night
 // function DayNightCycle() {
 //     var dt = new Date();
